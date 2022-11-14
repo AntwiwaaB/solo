@@ -1,0 +1,42 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+    background: linear-gradient(#1D3557, #457B9D);
+    color: #F1FAEE;
+}
+
+img {
+    width: 100px;
+}
+.akim{
+    background-image: url(images/fuller.jpg)
+    
+}
+h1, h2{
+    margin-top: 50px;
+    text-shadow: 0 0 8px black;
+}
+.pos{
+    display: flex;
+    justify-content: center;
+    border: 5px solid #E63946;
+    width: 400px;
+    margin: 50px auto 40px auto;
+    background: #71B48D;
+    color: #F1FAEE;
+    border-radius: 5px;
+}
+.block{
+    display: block;
+}
